@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Adrsha!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    img {
+      width: 250px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3.5em;
+      margin-bottom: 10px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 20px #ff6ec7, 0 0 30px #ff6ec7; }
+    }
+
+    .nicknames {
+      margin: 20px 0;
+      font-size: 1.3em;
+      font-style: italic;
+      color: #ffeaa7;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      background: #ff7675;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #d63031;
+    }
+
+    .message {
+      display: none;
+      font-size: 1.5em;
+      margin-top: 25px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Birthday Image -->
+ 
+
+  <h1>Happy Birthday Adrsha Singh!</h1>
+  <div class="nicknames">
+    aka Adarsh • Rishu • Hero • Dramebaaz • Bachpan ka Yaar
+  </div>
+
+  <p>Wishing you a fantastic day full of surprises, laughter, and memories!</p>
+  <p>You're not just a friend, you're a legend!</p>
+
+  <button onclick="document.getElementById('surprise').style.display='block'">Click for a Surprise</button>
+
+  <div id="surprise" class="message">
+    You're the *hero* of every moment and the *dramebaaz* of every story! Stay awesome, Adarsh!
+    <img src="adarsh.jpg" alt="Happy Birthday Image">
+  </div>
+
+</body>
+</html>
